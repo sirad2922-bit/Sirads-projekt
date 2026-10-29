@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- Sirads Café – Kontakt.  Sirad Ahmed -->
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | Sirads Café</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <!-- HEADER: logga, menyknapp och meny -->
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <img src="Img/logo.jpg" alt="Sirads Café logotyp">
+                <span>Sirads Café</span>
+            </a>
+
+            <!-- Knapp som öppnar och stänger menyn på mobil -->
+            <button class="menu-toggle">☰ Meny</button>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="meny.html">Meny</a></li>
+                    <li><a href="om-oss.html">Om oss</a></li>
+                    <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="sidansinnehall">
+            <div class="container two-columns kontakt">
+
+                <!-- KONTAKTUPPGIFTER -->
+                <div>
+                    <h1>Kontakt</h1>
+                    <p>Vill du boka bord eller fråga om allergier? Skicka ett meddelande så svarar vi inom ett dygn.</p>
+
+                    <h2>Adress</h2>
+                    <p>Klarvädersgatan<br>418 39 Göteborg</p>
+
+                    <h2>Öppettider</h2>
+                    <p>Mån–fre 07–18<br>Lör–sön 09–17</p>
+
+                    <h2>Telefon och e-post</h2>
+                    <p><a href="tel:0311234567">031-123 45 67</a><br>
+                       <a href="mailto:hej@siradscafe.se">hej@siradscafe.se</a></p>
+                </div>
+
+                <form id="kontaktformular" class="kontaktformular">
+                    <h2>Skicka ett meddelande</h2>
+
+                    <label for="namn">Namn</label>
+                    <input type="text" id="namn" name="namn">
+                    <p class="felmeddelande" id="namn-fel"></p>
+
+                    <label for="epost">E-post</label>
+                    <input type="text" id="epost" name="epost">
+                    <p class="felmeddelande" id="epost-fel"></p>
+
+                    <label for="meddelande">Meddelande</label>
+                    <textarea id="meddelande" name="meddelande" rows="5"></textarea>
+                    <p class="felmeddelande" id="meddelande-fel"></p>
+
+                    <button type="submit" class="btn brown">Skicka</button>
+
+                    <p class="tack-text" id="tack-meddelande"></p>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-innehall">
+                <h3>Sirads Café</h3>
+                <p>Klarvädersgatan<br>418 39 Göteborg</p>
+            </div>
+            <div class="footer-innehall">
+                <h3>Öppettider</h3>
+                <p>Mån–fre 07–18<br>Lör–sön 09–17</p>
+            </div>
+            <div class="footer-innehall">
+                <h3>Kontakt</h3>
+                <ul class="kontakt-info">
+                    <li>hej@siradscafe.se</li>
+                    <li>031-123 45 67</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
