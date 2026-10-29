@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- Sirads Café – Meny.  Sirad Ahmed -->
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meny | Sirads Café</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- HEADER: logga, menyknapp och meny -->
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <img src="Img/logo.jpg" alt="Sirads Café logotyp">
+                <span>Sirads Café</span>
+            </a>
+
+            <!-- Knapp som öppnar och stänger menyn på mobil -->
+            <button id="menu-button" class="menu-button" aria-expanded="false" aria-controls="main-menu">☰ Meny</button>
+
+            <nav id="main-menu">
+                <ul>
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="meny.html" class="active">Meny</a></li>
+                    <li><a href="om-oss.html">Om oss</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="sidansinnehall">
+            <div class="container">
+                <h1>Meny</h1>
+                <p>Allt bakas och tillagas på plats. Fråga personalen om allergier.</p>
+
+                <div class="three-columns meny">
+
+                    <div>
+                        <h2>Kaffe</h2>
+                        <ul class="meny-lista">
+                            <li>
+                                <div>
+                                    <h3>Bryggkaffe</h3>
+                                    <p>Med fri påtår.</p>
+                                </div>
+                                <span class="pris">28 kr</span>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>Espresso</h3>
+                                    <p>Kort och kraftfull.</p>
+                                </div>
+                                <span class="pris">30 kr</span>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>Cappuccino</h3>
+                                    <p>Espresso med skummad mjölk.</p>
+                                </div>
+                                <span class="pris">38 kr</span>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>Caffè latte</h3>
+                                    <p>Mild med mycket mjölk.</p>
+                                </div>
+                                <span class="pris">42 kr</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- FIKA -->
+                    <div>
+                        <h2>Fika</h2>
+                        <ul class="meny-lista">
+                            <li>
+                                <div>
+                                    <h3>Kanelbulle</h3>
+                                    <p>Bakad på plats varje morgon.</p>
+                                </div>
+                                <span class="pris">32 kr</span>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>Kardemummabulle</h3>
+                                    <p>Med pärlsocker.</p>
+                                </div>
+                                <span class="pris">34 kr</span>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>Morotskaka</h3>
+                                    <p>Med färskostfrosting.</p>
+                                </div>
+                                <span class="pris">45 kr</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Lunch</h2>
+                        <p class="liten-text">Serveras 11–14</p>
+                        <ul class="meny-lista">
+                            <li>
+                                <div>
+                                    <h3>Halloumisallad</h3>
+                                    <p>Grillad halloumi, grönsaker och krutonger.</p>
+                                </div>
+                                <span class="pris">115 kr</span>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>Dagens soppa</h3>
+                                    <p>Serveras med hembakat bröd.</p>
+                                </div>
+                                <span class="pris">95 kr</span>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>Vegansk wrap</h3>
+                                    <p>Falafel, hummus och grönsaker.</p>
+                                </div>
+                                <span class="pris">95 kr</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-innehall">
+                <h3>Sirads Café</h3>
+                <p>Klarvädersgatan<br>418 39 Göteborg</p>
+            </div>
+            <div class="footer-innehall">
+                <h3>Öppettider</h3>
+                <p>Mån–fre 07–18<br>Lör–sön 09–17</p>
+            </div>
+            <div class="footer-innehall">
+                <h3>Kontakt</h3>
+                <ul class="kontakt-info">
+                    <li>hej@siradscafe.se</li>
+                    <li>031-123 45 67</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
