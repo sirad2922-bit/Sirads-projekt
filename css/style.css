@@ -1,0 +1,63 @@
+/* Sirads Café  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #2a2220;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.two-columns,
+.three-columns,
+.fordel-container,
+.footer-container {
+    display: grid;
+    gap: 30px;
+}
+
+.two-columns {
+    align-items: center;
+}
+
+header, .about, .fordelar {
+    background-color: #e6e0db;
+}
+
+.favorites, .varderingar, .kontaktformular {
+    background-color: #ecdfd0;
+}
+
+
+
+.hero img, .about img, .card img,
+.sidansinnehall img, .varderingar img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
