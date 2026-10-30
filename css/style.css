@@ -51,7 +51,10 @@ header, .about, .fordelar {
 .favorites, .varderingar, .kontaktformular {
     background-color: #ecdfd0;
 }
-
+.hero, .favorites, .fordelar, .avslutning,
+.sidansinnehall, .varderingar, .footer {
+    padding: 40px 0;
+}
 
 
 .hero img, .about img, .card img,
