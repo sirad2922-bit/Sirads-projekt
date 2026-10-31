@@ -260,7 +260,6 @@ header {
     list-style: none;
 }
 
-
 @media (min-width: 768px) {
     .two-columns {
         grid-template-columns: 1fr 1fr;
@@ -272,6 +271,23 @@ header {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-  
-    
+    /* Knappen döljs och menyn syns på dator */
+    .menu-toggle {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        width: auto;
+    }
+
+    /* Länkarna bredvid varandra */
+    .menu ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .menu a {
+        padding: 10px 25px;
+    }
 }
