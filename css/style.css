@@ -238,11 +238,6 @@ header {
     border-radius: 8px;
 }
 
-/* Röd ram läggs till med JavaScript */
-.kontaktformular .fel-ifylld {
-    border: 2px solid red;
-}
-
 .felmeddelande {
     color: red;
     font-size: 14px;
